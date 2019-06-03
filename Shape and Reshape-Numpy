@@ -1,0 +1,5 @@
+import numpy
+
+my_array = [list(map(int, input().split()))]
+my_array = numpy.reshape(my_array,[3,3])
+print(my_array)
