@@ -1,0 +1,8 @@
+import numpy
+n, m = map(int, input().split())
+array = numpy.array([input().strip().split() for m in range(n)], int)
+
+x = numpy.transpose(array)
+print(x)
+y = array.flatten()
+print (y)
